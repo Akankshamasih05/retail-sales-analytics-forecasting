@@ -1,0 +1,40 @@
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.venv/
+venv/
+.env
+.env.*
+
+# Credentials
+credentials.json
+service-account*.json
+
+# Generated files
+database/
+output/
+logs/
+
+# Source dataset
+data/
+
+# Operating system
+.DS_Store
+
+# IDE
+.vscode/
+
+# Airflow
+airflow.db
+airflow.cfg
+# Original project files
+/Retail_Sales_Report.pdf
+/airflow/
+/image/
+/dataflow/pipeline.py
+/dataflow/pipeline_local.py
+/sql/*.sql
